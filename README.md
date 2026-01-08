@@ -38,9 +38,7 @@
               ├─ lib/
                   └─ constants.js           → Menu items, roles
       
-      └─ public/
-           └─ logo.png               → Logo
-
+     
 
 
 

@@ -1,45 +1,45 @@
 * Recommended File Structure *
 
-src/
-      ├─ app/
-          ├─ layout.js              → Root layout (fonts, navbar, sidebar)
-          ├─ globals.css
-   
-          ├─ page.jsx               → Public landing / dashboard
-   
-          ├─ dashboard/
-               └─ page.jsx           → CMS dashboard main page
-   
-          ├─ posts/
-               └─ page.jsx           → List of posts
-   
-         ├─ posts/[id]/
-              └─ page.jsx           → Single post edit/view
-   
-         ├─ settings/
-              └─ page.jsx           → CMS settings
-   
-         └─ api/                   → Later (optional backend APIs)
-
-    ├─ components/
-         ├─ layout/
-             ├─ Navbar.jsx         → Top bar (logo, profile)
-             ├─ Sidebar.jsx        → Side navigation
-             └─ Footer.jsx
-   
-         ├─ ui/
-             ├─ Button.jsx
-             ├─ Input.jsx
-             └─ Card.jsx
-   
-        └─ common/
-             └─ Logo.jsx
-   
-        ├─ lib/
-            └─ constants.js           → Menu items, roles
-
-└─ public/
-     └─ logo.png               → Logo
+      src/
+            ├─ app/
+                ├─ layout.js              → Root layout (fonts, navbar, sidebar)
+                ├─ globals.css
+         
+                ├─ page.jsx               → Public landing / dashboard
+         
+                ├─ dashboard/
+                     └─ page.jsx           → CMS dashboard main page
+         
+                ├─ posts/
+                     └─ page.jsx           → List of posts
+         
+               ├─ posts/[id]/
+                    └─ page.jsx           → Single post edit/view
+         
+               ├─ settings/
+                    └─ page.jsx           → CMS settings
+         
+               └─ api/                   → Later (optional backend APIs)
+      
+          ├─ components/
+               ├─ layout/
+                   ├─ Navbar.jsx         → Top bar (logo, profile)
+                   ├─ Sidebar.jsx        → Side navigation
+                   └─ Footer.jsx
+         
+               ├─ ui/
+                   ├─ Button.jsx
+                   ├─ Input.jsx
+                   └─ Card.jsx
+         
+              └─ common/
+                   └─ Logo.jsx
+         
+              ├─ lib/
+                  └─ constants.js           → Menu items, roles
+      
+      └─ public/
+           └─ logo.png               → Logo
 
 
 

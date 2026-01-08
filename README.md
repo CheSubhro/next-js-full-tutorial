@@ -63,29 +63,29 @@ src/
 
   * Navbar (Top) *
 
-      Logo
-      
-      User profile
-      
-      Logout
-      
-      Notifications
-
-      // components/layout/Navbar.jsx
+         Logo
+         
+         User profile
+         
+         Logout
+         
+         Notifications
+   
+         // components/layout/Navbar.jsx
 
    * Sidebar (Left) *
 
-      Dashboard
-
-      Posts
-      
-      Pages
-      
-      Media
-      
-      Settings
-
-      // components/layout/Sidebar.jsx
+         Dashboard
+   
+         Posts
+         
+         Pages
+         
+         Media
+         
+         Settings
+   
+         // components/layout/Sidebar.jsx
 
 
 
